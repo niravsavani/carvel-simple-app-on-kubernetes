@@ -13,3 +13,5 @@ kind: Config
 destinations:
 - image: us-central1-docker.pkg.dev/halogen-proxy-337309/argocddemo
   newImage: #@ data.values.push_images_repo
+options:
+  logging: CLOUD_LOGGING_ONLY
